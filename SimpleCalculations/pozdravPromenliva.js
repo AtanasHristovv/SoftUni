@@ -1,6 +1,6 @@
-function greetingByName([name, age]) {
-    console.log(`Hello, ${name} (${age})!`);
 
-}
-
-greetingByName(['Nasko', 30]); 
+   let firstName = "Atanas";
+   let lastName = "Hristov";
+   let age = 30;
+   let town = "Pleven";
+   console.log(`You are ${firstName} ${lastName}, a${age}-years old person from ${town}`);
